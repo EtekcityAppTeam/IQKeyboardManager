@@ -55,6 +55,7 @@
         UIToolbarPosition toolbarPosition = [position unsignedIntegerValue];
 
         [appearanceProxy setBackgroundImage:nil forToolbarPosition:toolbarPosition barMetrics:UIBarMetricsDefault];
+	appearanceProxy.backgroundColor = [UIColor whiteColor];
         [appearanceProxy setShadowImage:nil forToolbarPosition:toolbarPosition];
     }
 }
